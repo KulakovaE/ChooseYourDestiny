@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,23 +11,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChooseYourDestiny" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="jQZ-7q-yo6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="HOg-aa-WJ1">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLf-5d-J1i">
-                                        <rect key="frame" x="16" y="8" width="382" height="602"/>
+                                        <rect key="frame" x="16" y="8" width="568" height="384"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kuc-jm-stQ">
-                                        <rect key="frame" x="16" y="610" width="382" height="100"/>
+                                        <rect key="frame" x="16" y="392" width="568" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="7b8-Rh-8ig"/>
                                         </constraints>
@@ -36,11 +35,11 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choiseMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgv-On-Ahw"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgv-On-Ahw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9H-uJ-x4A">
-                                        <rect key="frame" x="16" y="710" width="382" height="100"/>
+                                        <rect key="frame" x="16" y="492" width="568" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="e6e-Zj-56F"/>
                                         </constraints>
@@ -49,7 +48,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choiseMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NPs-2E-VHO"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NPs-2E-VHO"/>
                                         </connections>
                                     </button>
                                 </subviews>

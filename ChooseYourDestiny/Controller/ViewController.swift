@@ -28,8 +28,8 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func choiseMade(_ sender: UIButton) {
-        
+    @IBAction func choiceMade(_ sender: UIButton) {
+       
     }
     
     func updateUI() {

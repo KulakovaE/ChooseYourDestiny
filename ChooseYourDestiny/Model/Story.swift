@@ -9,7 +9,10 @@
 import Foundation
 
 struct Story {
-    var title = ["You see a fork in the road", "You see a tiger", "You find a tresure chest"]
-    var choice1 = ["Take a left", "Shout for help", "Open it"]
-    var choice2 = ["Take a right", "Play dead", "Check for traps"]
+    var title: String
+    var choice1: String
+    var choice1Destination: Int
+    var choice2: String
+    var choice2Destination: Int
+    
 }
